@@ -53,11 +53,11 @@ conda activate kafka_topic_modeling
 
 ---
 
-## 🧪 Usage
+## Usage
 
 All notebooks are organized and numbered in a logical workflow. To begin, open the `.ipynb` files in **VSCode** with the appropriate conda environment activated.
 
-### 🔧 Configuration
+### Configuration
 
 Before running any notebooks, make sure to execute the `config.py` file once. This script defines all relevant project paths and modeling parameters (e.g., number of topics, vectorization thresholds). It also ensures that all required output directories (for saving results and visualizations) are automatically created.
 
