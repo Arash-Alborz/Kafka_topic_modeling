@@ -1,0 +1,8 @@
+# Ignore local data and models
+data/*
+!data/kafka_metadata.csv  # if it's small and needed
+results/*
+*.pkl
+*.joblib
+__pycache__/
+.env
