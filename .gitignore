@@ -1,6 +1,4 @@
-# Ignore local data and models
-data/*
-!data/kafka_metadata.csv  # if it's small and needed
+# Ignore only results and temporary files
 results/*
 *.pkl
 *.joblib
