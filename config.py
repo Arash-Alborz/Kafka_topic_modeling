@@ -15,9 +15,8 @@ CSV_DIR = OUTPUT_DIR / "csv_outputs"
 # modeling parameters
 NUM_TOPICS = 10
 MAX_DF = 0.95
-MIN_DF = 2
+MIN_DF = 5
 
-# === Ensure output directories exist ===
 for path in [OUTPUT_DIR, VISUALS_DIR, CSV_DIR]:
     path.mkdir(parents=True, exist_ok=True)
 
